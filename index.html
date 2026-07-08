@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hodjapa Food — Lumpia krispi homemade dengan isian segar, dibuat dengan cinta. Pesan sekarang untuk acara, kantor, atau camilan keluarga.">
+  <title>Hodjapa Food — Lumpia Krispi Homemade</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/logo.jpeg" type="image/jpeg">
+</head>
+<body>
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#beranda" class="nav__logo">
+        <img src="images/logo.jpeg" alt="Hodjapa Food" class="nav__logo-img">
+        <span class="nav__logo-text">Hodjapa Food</span>
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Buka menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#beranda" class="nav__link">Beranda</a></li>
+        <li><a href="#tentang" class="nav__link">Tentang</a></li>
+        <li><a href="#produk" class="nav__link">Produk</a></li>
+        <li><a href="#galeri" class="nav__link">Galeri</a></li>
+        <li><a href="#testimoni" class="nav__link">Testimoni</a></li>
+        <li><a href="#pesan" class="nav__link nav__link--cta">Pesan Sekarang</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="beranda">
+      <div class="hero__bg">
+        <img src="images/hero-lumpia.jpeg" alt="Lumpia krispi Hodjapa Food" class="hero__bg-img">
+        <div class="hero__overlay"></div>
+      </div>
+      <div class="hero__content container">
+        <div class="hero__badge">Homemade · Segar · Renyah</div>
+        <h1 class="hero__title">Lumpia Krispi<br><em>yang Bikin Ketagihan</em></h1>
+        <p class="hero__desc">Hodjapa Food menghadirkan lumpia krispi homemade dengan kulit renyah, isian segar, dan sambal pedas manis khas. Cocok untuk camilan, acara, atau stok di rumah.</p>
+        <div class="hero__actions">
+          <a href="#pesan" class="btn btn--primary">Pesan via WhatsApp</a>
+          <a href="#produk" class="btn btn--outline">Lihat Produk</a>
+        </div>
+        <div class="hero__stats">
+          <div class="hero__stat">
+            <span class="hero__stat-num">100%</span>
+            <span class="hero__stat-label">Homemade</span>
+          </div>
+          <div class="hero__stat">
+            <span class="hero__stat-num">Renyah</span>
+            <span class="hero__stat-label">Tiap Gigitan</span>
+          </div>
+          <div class="hero__stat">
+            <span class="hero__stat-num">Fresh</span>
+            <span class="hero__stat-label">Bahan Segar</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="tentang">
+      <div class="container about__grid">
+        <div class="about__images">
+          <img src="images/lumpia-plate.jpeg" alt="Lumpia krispi disajikan di piring" class="about__img about__img--main">
+          <img src="images/logo.jpeg" alt="Logo Hodjapa Food" class="about__img about__img--logo">
+        </div>
+        <div class="about__content">
+          <span class="section__tag">Tentang Kami</span>
+          <h2 class="section__title">Rasa Rumahan,<br>Kualitas Profesional</h2>
+          <p class="about__text">Hodjapa Food lahir dari kecintaan pada masakan rumahan Indonesia. Setiap lumpia kami dibuat dengan tangan, menggunakan bahan-bahan segar pilihan dan resep yang sudah teruji.</p>
+          <p class="about__text">Kami fokus pada kualitas — dari kerenyahan kulit lumpia, kelezatan isian sayur dan daging, hingga sambal pedas manis yang melengkapi setiap gigitan. Cocok dinikmati langsung, dibekukan untuk stok, atau dipesan dalam jumlah banyak untuk acara Anda.</p>
+          <ul class="about__features">
+            <li>
+              <span class="about__icon">✦</span>
+              <div>
+                <strong>Bahan Segar</strong>
+                <p>Sayuran dan bahan isian dipilih setiap hari</p>
+              </div>
+            </li>
+            <li>
+              <span class="about__icon">✦</span>
+              <div>
+                <strong>Dibuat dengan Cinta</strong>
+                <p>Proses homemade, bukan produksi massal</p>
+              </div>
+            </li>
+            <li>
+              <span class="about__icon">✦</span>
+              <div>
+                <strong>Kemasan Rapi</strong>
+                <p>Siap untuk dibawa pulang atau diantar</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="products section section--alt" id="produk">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Menu Kami</span>
+          <h2 class="section__title">Produk Unggulan</h2>
+          <p class="section__subtitle">Mulai dari lumpia krispi andalan kami. Produk lainnya sedang kami siapkan untuk Anda.</p>
+        </div>
+        <div class="products__grid">
+          <article class="product-card product-card--featured">
+            <div class="product-card__badge">Best Seller</div>
+            <div class="product-card__image">
+              <img src="images/lumpia-slate.jpeg" alt="Lumpia Krispi Hodjapa Food">
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Lumpia Krispi</h3>
+              <p class="product-card__desc">Lumpia goreng dengan kulit super renyah dan isian sayur segar yang gurih. Disertai sambal pedas manis.</p>
+              <ul class="product-card__details">
+                <li>Isian sayur segar &amp; bumbu rahasia</li>
+                <li>Free sambal pedas manis</li>
+                <li>Tersedia kemasan take away</li>
+                <li>Bisa dibekukan untuk stok</li>
+              </ul>
+              <div class="product-card__footer">
+                <span class="product-card__price">Hubungi untuk harga</span>
+                <a href="#pesan" class="btn btn--small">Pesan</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card product-card--soon">
+            <div class="product-card__image product-card__image--placeholder">
+              <div class="product-card__soon-content">
+                <span class="product-card__soon-icon">🍜</span>
+                <span>Segera Hadir</span>
+              </div>
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Produk Baru #2</h3>
+              <p class="product-card__desc">Kami sedang menyiapkan hidangan spesial berikutnya. Nantikan kejutan dari Hodjapa Food!</p>
+              <div class="product-card__footer">
+                <span class="product-card__status">Coming Soon</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card product-card--soon">
+            <div class="product-card__image product-card__image--placeholder">
+              <div class="product-card__soon-content">
+                <span class="product-card__soon-icon">🥟</span>
+                <span>Segera Hadir</span>
+              </div>
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__title">Produk Baru #3</h3>
+              <p class="product-card__desc">Menu ketiga sedang dalam tahap pengembangan. Ikuti kami untuk info terbaru!</p>
+              <div class="product-card__footer">
+                <span class="product-card__status">Coming Soon</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery section" id="galeri">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Galeri</span>
+          <h2 class="section__title">Lihat Lebih Dekat</h2>
+          <p class="section__subtitle">Dari dapur hingga kemasan — setiap detail kami perhatikan dengan serius.</p>
+        </div>
+        <div class="gallery__grid">
+          <figure class="gallery__item gallery__item--wide">
+            <img src="images/hero-lumpia.jpeg" alt="Lumpia krispi dengan sambal">
+            <figcaption>Renyah &amp; Gurih</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="images/packaging-mixed.jpeg" alt="Kemasan lumpia Hodjapa Food">
+            <figcaption>Kemasan Siap Antar</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="images/packaging-containers.jpeg" alt="Lumpia dalam box take away">
+            <figcaption>Take Away Box</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="images/lumpia-plate.jpeg" alt="Lumpia disajikan di piring">
+            <figcaption>Penyajian Premium</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="images/freezer-storage.jpg" alt="Lumpia siap dibekukan">
+            <figcaption>Siap Dibekukan</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial section section--alt" id="testimoni">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Testimoni</span>
+          <h2 class="section__title">Apa Kata Mereka?</h2>
+          <p class="section__subtitle">Dengarkan langsung pengalaman pelanggan yang sudah mencoba lumpia krispi Hodjapa Food.</p>
+        </div>
+
+        <div class="testimonial__wrapper">
+          <div class="testimonial__main">
+            <div class="testimonial__player" id="testimonialPlayer">
+              <iframe
+                id="ytPlayer"
+                class="testimonial__iframe"
+                title="Video testimoni Hodjapa Food"
+                src=""
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+              <button class="testimonial__cover" id="testimonialCover" type="button" aria-label="Putar video testimoni">
+                <img
+                  id="testimonialCoverImg"
+                  src="https://img.youtube.com/vi/ki4muMsW8Yg/maxresdefault.jpg"
+                  alt="Thumbnail video testimoni Hodjapa Food"
+                >
+                <span class="testimonial__cover-overlay">
+                  <span class="testimonial__cover-play">
+                    <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                  </span>
+                  <span class="testimonial__cover-text">Klik untuk memutar</span>
+                </span>
+              </button>
+            </div>
+            <div class="testimonial__now-playing">
+              <span class="testimonial__now-label">Sedang diputar</span>
+              <h3 class="testimonial__now-title" id="testimonialNowTitle">Momen Menikmati Lumpia Krispi</h3>
+              <p class="testimonial__now-name" id="testimonialNowName">Pelanggan Hodjapa Food</p>
+            </div>
+          </div>
+
+          <div class="testimonial__list">
+            <p class="testimonial__list-label">Pilih video testimoni</p>
+            <div class="testimonial__grid" id="testimonialGrid">
+              <button
+                class="testimonial__card is-active"
+                type="button"
+                data-video-id="ki4muMsW8Yg"
+                data-title="Momen Menikmati Lumpia Krispi"
+                data-name="Pelanggan Hodjapa Food"
+              >
+                <div class="testimonial__thumb">
+                  <img src="https://img.youtube.com/vi/ki4muMsW8Yg/hqdefault.jpg" alt="Testimoni lumpia krispi Hodjapa Food">
+                  <span class="testimonial__thumb-play">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                  </span>
+                </div>
+                <div class="testimonial__card-body">
+                  <span class="testimonial__card-name">Pelanggan Hodjapa Food</span>
+                  <span class="testimonial__card-title">Momen Menikmati Lumpia Krispi</span>
+                </div>
+              </button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="why section">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Mengapa Hodjapa?</span>
+          <h2 class="section__title">Yang Membuat Kami Berbeda</h2>
+        </div>
+        <div class="why__grid">
+          <div class="why__card">
+            <div class="why__icon">🌿</div>
+            <h3>Bahan Berkualitas</h3>
+            <p>Sayuran segar dan bumbu pilihan untuk rasa yang konsisten di setiap pesanan.</p>
+          </div>
+          <div class="why__card">
+            <div class="why__icon">🔥</div>
+            <h3>Kerenyahan Terjaga</h3>
+            <p>Digoreng dengan teknik yang tepat agar lumpia tetap renyah sampai ke tangan Anda.</p>
+          </div>
+          <div class="why__card">
+            <div class="why__icon">📦</div>
+            <h3>Kemasan Higienis</h3>
+            <p>Dikemas rapi dalam wadah food-grade, aman untuk dibawa dan disimpan.</p>
+          </div>
+          <div class="why__card">
+            <div class="why__icon">💬</div>
+            <h3>Pesan Mudah</h3>
+            <p>Cukup chat WhatsApp — kami bantu atur pesanan sesuai kebutuhan Anda.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="order section" id="pesan">
+      <div class="container order__grid">
+        <div class="order__content">
+          <span class="section__tag">Pemesanan</span>
+          <h2 class="section__title">Siap Pesan<br>Lumpia Krispi?</h2>
+          <p class="order__text">Hubungi kami via WhatsApp untuk pemesanan, tanya harga, atau konsultasi pesanan dalam jumlah besar untuk acara dan kantor.</p>
+          <ol class="order__steps">
+            <li><span>1</span> Chat kami di WhatsApp</li>
+            <li><span>2</span> Tentukan jumlah &amp; varian</li>
+            <li><span>3</span> Konfirmasi &amp; ambil/antar</li>
+          </ol>
+          <a href="https://wa.me/6285335084648?text=Halo%20Hodjapa%20Food!%20Saya%20mau%20pesan%20Lumpia%20Krispi." class="btn btn--whatsapp" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.881 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Chat WhatsApp
+          </a>
+
+        </div>
+        <div class="order__visual">
+          <img src="images/packaging-mixed.jpeg" alt="Kemasan lumpia Hodjapa Food siap pesan">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <img src="images/logo.jpeg" alt="Hodjapa Food" class="footer__logo">
+        <p class="footer__tagline">Homemade food dengan cita rasa Indonesia yang autentik.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Navigasi</h4>
+        <ul>
+          <li><a href="#beranda">Beranda</a></li>
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#produk">Produk</a></li>
+          <li><a href="#galeri">Galeri</a></li>
+          <li><a href="#testimoni">Testimoni</a></li>
+          <li><a href="#pesan">Pesan</a></li>
+        </ul>
+      </div>
+      <div class="footer__contact">
+        <h4>Kontak</h4>
+        <p>WhatsApp: <a href="https://wa.me/6285335084648">+62 853-3508-4648</a></p>
+        <p>Instagram: <a href="https://www.instagram.com/hodjapa_food/" target="_blank" rel="noopener noreferrer">@hodjapa_food</a></p>
+      </div>
+    </div>
+    <div class="footer__bottom container">
+      <p>&copy; 2026 Hodjapa Food. Semua hak dilindungi.</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/6285335084648?text=Halo%20Hodjapa%20Food!%20Saya%20mau%20pesan%20Lumpia%20Krispi." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat WhatsApp">
+    <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.881 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
