@@ -649,16 +649,6 @@ ul {
   aspect-ratio: 1;
 }
 
-.gallery__item--natural img {
-  aspect-ratio: 750 / 718;
-  object-fit: cover;
-  height: auto;
-}
-
-.gallery__item--natural:hover img {
-  transform: scale(1.03);
-}
-
 .gallery__item:hover img {
   transform: scale(1.06);
 }
