@@ -649,17 +649,13 @@ ul {
   aspect-ratio: 1;
 }
 
-.gallery__item--full {
-  background: linear-gradient(160deg, #3d3d3d 0%, #1f1f1f 100%);
+.gallery__item--natural img {
+  aspect-ratio: 885 / 718;
+  object-fit: cover;
+  height: auto;
 }
 
-.gallery__item--full img {
-  aspect-ratio: 4/3;
-  object-fit: contain;
-  padding: 6px;
-}
-
-.gallery__item--full:hover img {
+.gallery__item--natural:hover img {
   transform: scale(1.03);
 }
 
