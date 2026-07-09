@@ -650,7 +650,7 @@ ul {
 }
 
 .gallery__item--natural img {
-  aspect-ratio: 885 / 718;
+  aspect-ratio: 750 / 718;
   object-fit: cover;
   height: auto;
 }
