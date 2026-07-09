@@ -495,6 +495,10 @@ ul {
   border-radius: 50px;
 }
 
+.product-card__badge--new {
+  background: var(--teal);
+}
+
 .product-card__image {
   aspect-ratio: 4/3;
   overflow: hidden;
